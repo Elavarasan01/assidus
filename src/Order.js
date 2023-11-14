@@ -19,10 +19,6 @@ const rows = [
   createData(4, "Product", "4,675.10", "44,5556"),
 ];
 
-function preventDefault(event) {
-  event.preventDefault();
-}
-
 export default function Orders() {
   return (
     <React.Fragment>
