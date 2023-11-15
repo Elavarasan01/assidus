@@ -195,7 +195,7 @@ export default function Dashboard() {
                       p: 2,
                       display: "flex",
                       flexDirection: "column",
-                      height: 240,
+                      height: 390,
                     }}
                   >
                     <div
@@ -267,7 +267,7 @@ export default function Dashboard() {
                       p: 2,
                       display: "flex",
                       flexDirection: "column",
-                      height: 240,
+                      height: 390,
                     }}
                   >
                     <div
@@ -308,7 +308,7 @@ export default function Dashboard() {
                       p: 2,
                       display: "flex",
                       flexDirection: "column",
-                      height: 240,
+                      height: 390,
                     }}
                   >
                     <div
@@ -346,7 +346,12 @@ export default function Dashboard() {
                 </Grid>
                 <Grid item xs={12} lg={6}>
                   <Paper
-                    sx={{ p: 2, display: "flex", flexDirection: "column" }}
+                    sx={{
+                      p: 2,
+                      display: "flex",
+                      flexDirection: "column",
+                      height: 390,
+                    }}
                   >
                     <Orders />
                   </Paper>

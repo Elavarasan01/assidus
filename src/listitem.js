@@ -11,37 +11,37 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 
 export const mainListItems = (
   <React.Fragment>
-    <ListItemButton>
+    <ListItemButton sx={{ marginTop: "18px" }}>
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
       <ListItemText primary="Dashboard" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton sx={{ marginTop: "18px" }}>
       <ListItemIcon>
         <AccountBalanceWalletIcon />
       </ListItemIcon>
       <ListItemText primary="Accounts" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton sx={{ marginTop: "18px" }}>
       <ListItemIcon>
         <AttachMoneyIcon />
       </ListItemIcon>
       <ListItemText primary="Payroll" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton sx={{ marginTop: "18px" }}>
       <ListItemIcon>
         <DescriptionIcon />
       </ListItemIcon>
       <ListItemText primary="Reports" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton sx={{ marginTop: "18px" }}>
       <ListItemIcon>
         <PersonIcon />
       </ListItemIcon>
       <ListItemText primary="Advisor" />
     </ListItemButton>
-    <ListItemButton>
+    <ListItemButton sx={{ marginTop: "18px" }}>
       <ListItemIcon>
         <ContactsIcon />
       </ListItemIcon>

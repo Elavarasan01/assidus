@@ -34,9 +34,15 @@ export default function Orders() {
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.id}>
-              <TableCell>{row.date}</TableCell>
-              <TableCell>{row.name}</TableCell>
-              <TableCell>{row.shipTo}</TableCell>
+              <TableCell style={{ paddingBottom: "18px", border: "none" }}>
+                {row.date}
+              </TableCell>
+              <TableCell style={{ paddingBottom: "18px", border: "none" }}>
+                {row.name}
+              </TableCell>
+              <TableCell style={{ paddingBottom: "18px", border: "none" }}>
+                {row.shipTo}
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>

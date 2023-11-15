@@ -11,38 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.dashboard .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover{
-  background-color: #47B747 !important;
-  color: #FFF;
-}
-
-.dashboard .css-10hburv-MuiTypography-root{
-  font-weight: bold !important;
-}
-
-
-.dashboard .css-i4bv87-MuiSvgIcon-root:hover{
-  fill: #FFF !important;
-}
-
-.dashboard .css-dsuxgy-MuiTableCell-root{
-  font-weight: bold !important;
-}
-
-.dashboard .css-1howxi1-MuiTableCell-root{
-  color: lightgray;
-}
-
-.dashboard .css-apqrd9-MuiTableBody-root .css-1q1u3t4-MuiTableRow-root td{
-  border: none !important;
-  padding-bottom: 30px !important;
-}
-
-.dashboard .css-t5ouwv-MuiPaper-root{
-  height: 388px !important;
-}
-
-.dashboard .css-tlelie-MuiListItemText-root{
-  margin-top: 18px !important;
-}

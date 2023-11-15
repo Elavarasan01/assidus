@@ -80,7 +80,7 @@ export const BarChart = () => {
       .scaleBand()
       .domain(data.map((d) => d.label))
       .range([0, width])
-      .padding(0.6);
+      .padding(0.7);
 
     const yScale = d3
       .scaleLinear()
@@ -142,7 +142,7 @@ export const BarChart2 = () => {
       .scaleBand()
       .domain(data.map((d) => d.label))
       .range([0, width])
-      .padding(0.6);
+      .padding(0.7);
 
     const yScale = d3
       .scaleLinear()
